@@ -12,7 +12,7 @@ const CertificateBox: React.FC<ICertificateBox> = ({ certificate, onSelect }) =>
 
     return (
         <div
-            className="cursor-pointer rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200"
+            className="cursor-pointer rounded-lg border text-white border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200"
             onClick={handleClick}
         >
              <div className="p-4">

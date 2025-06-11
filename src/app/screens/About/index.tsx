@@ -37,7 +37,7 @@ const About = () => {
                     Sobre mim
                 </h1>
                 <p className="mt-4 text-lg md:text-xl text-justify text-zinc-800 leading-relaxed drop-shadow-sm md:w-3/4">
-                    Atuo como desenvolvedora full stack e crio softwares com responsividade, design acolhedor, escalabilidade e propósito.
+                    Atuo como desenvolvedora full stack e crio softwares com responsividade, design acolhedor, escalabilidade responsabilidade e propósito.
                 </p>
                 <p className="mt-4 text-lg md:text-xl text-justify text-zinc-800 leading-relaxed drop-shadow-sm md:w-3/4">
                     Unindo minha formação em letras e meu desenvolvimento acadêmico atual no campo da STEM, tenho mergulhado nos estudos de Processamento de Linguagem Natural.
