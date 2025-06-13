@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
                 </Link>
                 <Link
                     className={`text-[#D9831A] hover:text-[#297DA6] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
-                    href={"/#services"}
+                    href={"/#projects"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Projetos
