@@ -17,20 +17,18 @@ const CardProjeto: React.FC<ICardProjetoProps> = ({
     link,
 }) => {
     return (
-        <div className="w-full h-[30vh] flex flex-col md:flex-row items-center justify-center gap-10 bg-white shadow-lg p-10">
-            <figure className="h-[50%] flex justify-center items-center">
+        <div className="w-full h-full md:h-[40vh] flex flex-col md:flex-row items-center justify-center shadow-lg">
                 <Image
-                    className="w-full h-full object-cover  shadow-2xl rounded-lg"
+                    className="w-full h-auto md:w-auto md:h-full  object-cover"
                     src={imagem}
                     alt={`Imagem do projeto ${titulo}`}
                     priority
                 />
-            </figure>
-            <div className="md:w-1/2 flex flex-col gap-6 p-6 rounded-lg bg-[#297DA6] text-white">
-                <h1 className="text-xl font-semibold">
+            <div className="w-full md:h-full p-4 md:p-10 flex flex-col gap-6 bg-white text-lg md:text-xl text-justify text-zinc-800 ">
+                <h1 className="text-3xl font-semibold">
                     {titulo}
                 </h1>
-                <p className="text-sm">
+                <p className="text-md">
                     {detalhes}
                 </p>
                 <div className="flex flex-wrap gap-10">
@@ -40,7 +38,7 @@ const CardProjeto: React.FC<ICardProjetoProps> = ({
                 </div>
                 <Link
                     href={link}
-                    className="flex items-center gap-2"
+                    className="w-60  md:mt-7 flex items-center justify-center gap-2 bg-[#D9831A] py-1 rounded-xl text-center text-white hover:bg-[#297DA6] font-bold font-default"
                 >
                     <span>Acesse o projeto</span>
                     <FaLongArrowAltRight />

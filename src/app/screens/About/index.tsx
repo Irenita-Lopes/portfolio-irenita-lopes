@@ -21,18 +21,18 @@ import Link from 'next/link';
 const About = () => {
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/path/to/your/cv.pdf';
-        link.download = 'irenita-lopes-cv.pdf';
+        link.href = '/Irenita_Ferreira_Lopes.pdf';
+        link.download = 'Irenita_Ferreira_Lopes.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
     };
     return (
         <section
-            className="min-h-screen px-4 py-10 md:py-20 md:px-16 flex flex-col md:flex-row items-center justify-center gap-10 bg-white"
+            className="min-h-screen px-4 py-10 md:py-20 md:px-30 flex flex-col md:flex-row items-center justify-center gap-10 bg-white"
             id="about"
         >
-            <div className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start md:pl-30">
+            <div className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start">
                 <h1 className="text-5xl md:text-6xl text-center mb-4 font-bold text-[#297DA6] leading-relaxed drop-shadow-sm md:text-left">
                     Sobre mim
                 </h1>
@@ -111,32 +111,24 @@ const About = () => {
                 </div>
                 <nav className='flex gap-10 mt-10'>
                     <button
-                        className={`bg-[#D9831A] w-[10rem] py-4 rounded-2xl text-center text-white hover:bg-[#297DA6] font-bold font-default`}
+                        className="bg-[#D9831A] w-[10rem] py-4 rounded-2xl text-center text-white hover:bg-[#297DA6] font-bold font-default"
                         onClick={handleDownload}
                     >
                         Download CV
                     </button>
 
                     <Link
-                        className={`bg-[#D9831A] w-[10rem] py-4 rounded-2xl text-center text-white hover:bg-[#297DA6] font-bold font-default`}
-                        href={"/screens/CertificatesPage"}
+                        className="bg-[#D9831A] w-[10rem] py-4 rounded-2xl text-center text-white hover:bg-[#297DA6] font-bold font-default"
+                        href="/screens/CertificatesPage"
                     >
                         Certificados
                     </Link>
                 </nav>
             </div>
-        </section>
+        </section >
     );
 };
 
-const cardStyles = `
-    bg-[#297DA6] 
-    p-6 
-    rounded-lg 
-    shadow-md 
-    flex 
-    flex-col 
-    items-center
-`;
+
 
 export default About;

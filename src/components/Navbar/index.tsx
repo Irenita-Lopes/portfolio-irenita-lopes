@@ -56,13 +56,20 @@ const Navbar: React.FC = () => {
                     Projetos
                 </Link>
 
-                <Link
+                <button
                     className={`text-[#D9831A] hover:text-[#297DA6] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
-                    href={"/"}
-                    onClick={() => setIsOpen(!isOpen)}
+                    onClick={() => {
+                        const link = document.createElement('a');
+                        link.href = '/Irenita_Ferreira_Lopes.pdf';
+                        link.download = 'Irenita_Ferreira_Lopes.pdf';
+                        document.body.appendChild(link);
+                        link.click();
+                        document.body.removeChild(link);
+                    }}
                 >
-                    Currículo
-                </Link>
+                    Download CV
+                </button>
+
 
                 <Link
                     className={`text-[#D9831A] hover:text-[#297DA6] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
