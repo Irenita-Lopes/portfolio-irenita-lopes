@@ -1,4 +1,5 @@
 import { ICertificate } from "@/interface/ICertificate";
+import Image from "next/image";
 
 export interface ICertificateBox {
     certificate: ICertificate;
@@ -18,7 +19,7 @@ const CertificateBox: React.FC<ICertificateBox> = ({ certificate, onSelect }) =>
              <div className="p-4">
                 <h3 className="text-lg font-semibold">{certificate.alt}</h3>
             </div>
-            <img
+            <Image
                 src={certificate.src.src}
                 alt={certificate.alt}
                 className="w-full h-auto rounded-t-lg"

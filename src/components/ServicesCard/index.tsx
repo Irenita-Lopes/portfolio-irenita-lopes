@@ -1,5 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-import DefaultButton from "../DefaultButton";
 import { RiSearchLine } from "react-icons/ri";
 
 export interface IServicesCard {
@@ -35,13 +34,13 @@ const ServicesCard: React.FC<IServicesCard> = ({
                 <span className="text-center text-gray-700">
                     {description}
                 </span>
-                <DefaultButton
+                <button
                     title="Saiba mais"
                     onClick={onClick}
                     className='bg-[#a64522] hover:bg-[#F24C27] text-white font-bold py-2 px-4 rounded-xl mt-4'
                 >
                     <RiSearchLine size={20} />
-                </DefaultButton>
+                </button>
 
             </div>
         </div>
