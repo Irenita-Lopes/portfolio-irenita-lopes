@@ -15,6 +15,8 @@ const HomePage = () => {
                     src={perfil}
                     alt="Foto de Irenita Ferreira Lopes, com fundo branco e camiseta amarela, créditos à fotógrafa Amanda Cena"
                     priority
+                    width={400}
+                    height={400}
                 />
             </figure>
 

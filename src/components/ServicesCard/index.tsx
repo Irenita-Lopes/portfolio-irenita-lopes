@@ -25,6 +25,8 @@ const ServicesCard: React.FC<IServicesCard> = ({
                     alt={alt}
                     title={title}
                     priority
+                    width={300}
+                    height={250}
                 />
             </figure>
             <div className="px-4 py-2 flex flex-col items-center justify-between flex-grow">

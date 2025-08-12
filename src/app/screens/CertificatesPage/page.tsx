@@ -20,6 +20,11 @@ import CertificateBox from '@/components/CertificateBox';
 import CertificateModal from '@/components/CertificateModal';
 import frontendProgramaria from '@/assets/Irenita-desenvolvimento-profissional-frontend.png';
 import backendProgramaria from '@/assets/Irenita-desenvolvimento-profissional-backend.png';
+import copilotAI from '@/assets/Irenita-ia-copilot.png';
+import elasAI from '@/assets/Irenita-ia-elas.png';
+import generativaAI from '@/assets/Irenita-ia-generativa.png';
+import geralAzureAI from '@/assets/Irenita-ia-visao-geral-azure.png';
+import fundAzureAI from '@/assets/Irenita-ia-fund-visao-computacional-ia-azure.png';
 
 const Certificates = () => {
     const [showModal, setShowModal] = useState(false);
@@ -31,7 +36,7 @@ const Certificates = () => {
                 src: backendProgramaria,
                 alt: 'Back-End'
             },
-    {
+            {
                 src: bootcamp,
                 alt: 'Programação do Zero'
             },
@@ -44,7 +49,7 @@ const Certificates = () => {
                 src: logica,
                 alt: 'Lógica de Programação'
             },
-            
+
         ],
         Versionamento: [
             {
@@ -76,11 +81,32 @@ const Certificates = () => {
             {
                 src: design,
                 alt: 'Design'
-            }
-            ,
+            },
             {
                 src: frontendProgramaria,
                 alt: 'Front-End'
+            }
+        ],
+        AI: [
+            {
+                src: copilotAI,
+                alt: 'IA Generativo da Microsoft - Copilot'
+            },
+            {
+                src: elasAI,
+                alt: 'Mentoria - Elas na IA'
+            },
+            {
+                src: generativaAI,
+                alt: 'Inteligência Artificial Generativa'
+            },
+            {
+                src: geralAzureAI,
+                alt: 'Visão Geral da IA no Azure'
+            },
+            {
+                src: fundAzureAI,
+                alt: 'Fundamentos da Visão Computacional - IA do Azure'
             }
         ],
         Carreira: [

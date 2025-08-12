@@ -29,7 +29,7 @@ const About = () => {
     };
     return (
         <section
-            className="min-h-screen px-4 py-10 md:py-20 md:px-30 flex flex-col md:flex-row items-center justify-center gap-10 bg-white"
+            className="min-h-screen px-4 py-10 md:px-30 flex flex-col md:flex-row items-center justify-center gap-10 bg-white"
             id="about"
         >
             <div className="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start">
@@ -37,20 +37,17 @@ const About = () => {
                     Sobre mim
                 </h1>
                 <p className="mt-4 text-lg md:text-xl text-justify text-zinc-800 leading-relaxed drop-shadow-sm md:w-3/4">
-                    Atuo como desenvolvedora full stack e crio softwares com responsividade, design acolhedor, escalabilidade responsabilidade e propósito.
+                    Atuo como desenvolvedora full stack e crio softwares com responsividade, design acolhedor, escalabilidade, responsabilidade e propósito.
                 </p>
                 <p className="mt-4 text-lg md:text-xl text-justify text-zinc-800 leading-relaxed drop-shadow-sm md:w-3/4">
                     Unindo minha formação em letras e meu desenvolvimento acadêmico atual no campo da STEM, tenho mergulhado nos estudos de Processamento de Linguagem Natural.
                 </p>
-                <p className="mt-4 text-lg md:text-xl text-justify text-zinc-800 leading-relaxed drop-shadow-sm md:w-3/4">
-                    Sou uma pernambucana vivendo e trabalhando na Zona Oeste de São Paulo.
-                </p>
             </div>
-            <div className="w-full md:w-1/2 flex flex-col justify-center items-center gap-6">
+            <div className="w-full md:w-2/3 flex flex-col justify-center items-center gap-6">
                 <h2 className="text-4xl mb-6 text-[#D9831A] font-bold">Habilidades Técnicas</h2>
 
                 <div className="text-white flex flex-col gap-4 md:grid md:grid-cols-2">
-                    <div className="card bg-[#297DA6] p-6 rounded-lg shadow-md flex flex-col items-center">
+                    <div className="card bg-[#297DA6] p-6 rounded-lg shadow-md w-70  flex flex-col items-center">
                         <span className="text-lg font-semibold mb-2">Linguagens</span>
                         <div className="flex gap-4 mt-2">
                             <FaJava size={32} />
@@ -61,8 +58,8 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="card bg-[#297DA6] p-6 rounded-lg shadow-md flex flex-col items-center">
-                        <span className="text-lg font-semibold mb-2">Frameworks & Bibliotecas</span>
+                    <div className="card bg-[#297DA6] p-6 rounded-lg shadow-md flex md:w-70 flex-col items-center">
+                        <span className="text-lg font-semibold mb-2">Frameworks e Bibliotecas</span>
                         <div className="flex gap-4 mt-2">
                             <BiLogoSpringBoot size={32} />
                             <FaReact size={32} />
@@ -71,7 +68,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="card bg-[#297DA6] p-6 rounded-lg shadow-md flex flex-col items-center">
+                    <div className="card bg-[#297DA6] p-6 rounded-lg shadow-md flex w-70 flex-col items-center">
                         <span className="text-lg font-semibold mb-2">Web</span>
                         <div className="flex gap-4 mt-2">
                             <FaHtml5 size={32} />
@@ -79,7 +76,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className="card bg-[#297DA6] p-6 rounded-lg shadow-md flex flex-col items-center">
+                    <div className="card bg-[#297DA6] p-6 rounded-lg shadow-md w-70 flex flex-col items-center">
                         <span className="text-lg font-semibold mb-2">Ferramentas</span>
                         <div className="flex gap-4 mt-2">
                             <IoGitMergeOutline size={32} />
@@ -91,7 +88,7 @@ const About = () => {
                     </div>
 
 
-                    <div className="card bg-[#297DA6] p-6 rounded-lg shadow-md flex flex-col items-center">
+                    <div className="card bg-[#297DA6] p-6 rounded-lg shadow-md w-70 flex flex-col items-center">
                         <span className="text-lg font-semibold mb-2">Banco de Dados</span>
                         <div className="flex gap-4 mt-2">
                             <SiMongodb size={32} />
@@ -101,7 +98,7 @@ const About = () => {
                     </div>
 
 
-                    <div className="card bg-[#297DA6] p-6 rounded-lg shadow-md flex flex-col items-center">
+                    <div className="card bg-[#297DA6] p-6 rounded-lg shadow-md w-70 flex flex-col items-center">
                         <span className="text-lg font-semibold mb-2">Cloud</span>
                         <div className="flex gap-4 mt-2">
                             <FaAws size={32} />

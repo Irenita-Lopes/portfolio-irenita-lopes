@@ -23,6 +23,8 @@ const CardProjeto: React.FC<ICardProjetoProps> = ({
                     src={imagem}
                     alt={`Imagem do projeto ${titulo}`}
                     priority
+                    width={400}
+                    height={300}
                 />
             <div className="w-full md:h-full p-4 md:p-10 flex flex-col gap-6 bg-white text-lg md:text-xl text-justify text-zinc-800 ">
                 <h1 className="text-3xl font-semibold">

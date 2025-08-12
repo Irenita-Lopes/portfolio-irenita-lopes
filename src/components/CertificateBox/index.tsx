@@ -23,6 +23,8 @@ const CertificateBox: React.FC<ICertificateBox> = ({ certificate, onSelect }) =>
                 src={certificate.src.src}
                 alt={certificate.alt}
                 className="w-full h-auto rounded-t-lg"
+                width={400}
+                height={300}
             />
         </div>
     );

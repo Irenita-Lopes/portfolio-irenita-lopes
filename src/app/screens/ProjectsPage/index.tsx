@@ -2,6 +2,7 @@ import alimentafros from "@/assets/Alimentafros.png";
 import CardProjeto from "@/components/CardProjeto";
 import pancs from "@/assets/pancs.png";
 import naojogue from "@/assets/naojoguefora.png";
+import passaros from "@/assets/passaros.png";
 
 const ProjectsPage = () => {
     return (
@@ -12,6 +13,15 @@ const ProjectsPage = () => {
                 Projetos
             </h1>
             <div className="w-full h-full flex flex-col gap-4 px-4 md:px-30 mb-4">
+
+                <CardProjeto
+                    titulo="Jogo dos pássaros"
+                    detalhes="Inspirado no jogo da velha, aqui apresentamos pássaros da fauna paulistana, partindo do Guia de Aves da Cidade de São Paulo."
+                    tecnologias={["React", "HTML", "JavaScript", "CSS"]}
+                    imagem={passaros}
+                    link="https://vercel.com/irenitas-projects/jogo-passarinhos"
+                />
+
                 <CardProjeto
                     titulo="AlimentAfro"
                     detalhes="Landing page personalizada para projeto de nutrição."
@@ -19,10 +29,11 @@ const ProjectsPage = () => {
                     imagem={alimentafros}
                     link="https://alimentafros.vercel.app"
                 />
+
                 <CardProjeto
                     titulo="PANCS"
                     detalhes="Landing page para o projeto de divulgação de plantas alimentícias não convencionais."
-                    tecnologias={["Next.js", "React", "TypeScript"]}
+                    tecnologias={["React", "HTML", "JavaScript", "CSS"]}
                     imagem={pancs}
                     link="https://pancs.vercel.app"
                 />
@@ -35,7 +46,6 @@ const ProjectsPage = () => {
                     link="https://nao-jogue-fora.vercel.app"
                 />
             </div>
-
         </section>
     );
 };
