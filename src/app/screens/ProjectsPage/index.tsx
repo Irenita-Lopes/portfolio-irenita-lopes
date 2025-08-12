@@ -19,7 +19,7 @@ const ProjectsPage = () => {
                     detalhes="Inspirado no jogo da velha, aqui apresentamos pássaros da fauna paulistana, partindo do Guia de Aves da Cidade de São Paulo."
                     tecnologias={["React", "HTML", "JavaScript", "CSS"]}
                     imagem={passaros}
-                    link="https://vercel.com/irenitas-projects/jogo-passarinhos"
+                    link="https://jogo-passarinhos.vercel.app"
                 />
 
                 <CardProjeto
