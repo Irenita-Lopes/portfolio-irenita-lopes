@@ -13,6 +13,22 @@ const ProjectsPage = () => {
                 Projetos
             </h1>
             <div className="w-full h-full flex flex-col gap-4 px-4 md:px-30 mb-4">
+               
+                <CardProjeto
+                    titulo="AlimentAfro"
+                    detalhes="Landing page personalizada para projeto de nutrição."
+                    tecnologias={["Next.js", "React", "TypeScript"]}
+                    imagem={alimentafros}
+                    link="https://alimentafros.vercel.app"
+                />
+                
+                <CardProjeto
+                    titulo="Não Jogue Fora"
+                    detalhes="Landing page para o projeto de campanha entitulada Não Jogue Fora."
+                    tecnologias={["Next.js", "React", "TypeScript"]}
+                    imagem={naojogue}
+                    link="https://nao-jogue-fora.vercel.app"
+                />
 
                 <CardProjeto
                     titulo="Jogo dos pássaros"
@@ -23,14 +39,6 @@ const ProjectsPage = () => {
                 />
 
                 <CardProjeto
-                    titulo="AlimentAfro"
-                    detalhes="Landing page personalizada para projeto de nutrição."
-                    tecnologias={["Next.js", "React", "TypeScript"]}
-                    imagem={alimentafros}
-                    link="https://alimentafros.vercel.app"
-                />
-
-                <CardProjeto
                     titulo="PANCS"
                     detalhes="Landing page para o projeto de divulgação de plantas alimentícias não convencionais."
                     tecnologias={["React", "HTML", "JavaScript", "CSS"]}
@@ -38,13 +46,7 @@ const ProjectsPage = () => {
                     link="https://pancs.vercel.app"
                 />
 
-                <CardProjeto
-                    titulo="Não Jogue Fora"
-                    detalhes="Landing page para o projeto de campanha entitulada Não Jogue Fora."
-                    tecnologias={["Next.js", "React", "TypeScript"]}
-                    imagem={naojogue}
-                    link="https://nao-jogue-fora.vercel.app"
-                />
+
             </div>
         </section>
     );
