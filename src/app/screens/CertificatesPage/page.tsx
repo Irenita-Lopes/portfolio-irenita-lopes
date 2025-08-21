@@ -25,6 +25,8 @@ import elasAI from '@/assets/Irenita-ia-elas.png';
 import generativaAI from '@/assets/Irenita-ia-generativa.png';
 import geralAzureAI from '@/assets/Irenita-ia-visao-geral-azure.png';
 import fundAzureAI from '@/assets/Irenita-ia-fund-visao-computacional-ia-azure.png';
+import Acessibilidade from '@/assets/LiderandoIniciativasdeAcessibilidadeDigital.png';
+import IntroducaoDados from '@/assets/IntroducaoCienciaDados-ConceitosFerramentas.png';
 
 const Certificates = () => {
     const [showModal, setShowModal] = useState(false);
@@ -49,8 +51,8 @@ const Certificates = () => {
                 src: logica,
                 alt: 'Lógica de Programação'
             },
-
         ],
+
         Versionamento: [
             {
                 src: gg,
@@ -61,12 +63,14 @@ const Certificates = () => {
                 alt: 'Versionamento de Código'
             }
         ],
+
         Teste: [
             {
                 src: tdd,
                 alt: 'Programação Orientada a Testes'
             }
         ],
+
         Web: [
             {
                 src: webdom,
@@ -77,6 +81,7 @@ const Certificates = () => {
                 alt: 'HTML, CSS e JavaScript'
             }
         ],
+
         Frontend: [
             {
                 src: design,
@@ -87,6 +92,7 @@ const Certificates = () => {
                 alt: 'Front-End'
             }
         ],
+
         AI: [
             {
                 src: copilotAI,
@@ -109,6 +115,14 @@ const Certificates = () => {
                 alt: 'Fundamentos da Visão Computacional - IA do Azure'
             }
         ],
+
+        Dados: [
+            {
+                src: IntroducaoDados,
+                alt: 'Introdução à Ciências Dados'
+            }
+
+        ],
         Carreira: [
             {
                 src: tech,
@@ -127,6 +141,14 @@ const Certificates = () => {
                 alt: 'Hábitos: Da produtividade às metas pessoais'
             }
         ],
+
+        Inclusão: [
+            {
+                src: Acessibilidade,
+                alt: 'Liderando Iniciativas de Acessibilidade Digital'
+            }
+        ],
+
         Educação: [
             {
                 src: letras,
