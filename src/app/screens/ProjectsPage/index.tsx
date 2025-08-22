@@ -3,6 +3,7 @@ import CardProjeto from "@/components/CardProjeto";
 import pancs from "@/assets/pancs.png";
 import naojogue from "@/assets/naojoguefora.png";
 import passaros from "@/assets/passaros.png";
+import kibebelu from "@/assets/kibebelu.png";
 
 const ProjectsPage = () => {
     return (
@@ -28,6 +29,13 @@ const ProjectsPage = () => {
                     tecnologias={["Next.js", "React", "TypeScript"]}
                     imagem={naojogue}
                     link="https://nao-jogue-fora.vercel.app"
+                />
+                  <CardProjeto
+                    titulo="Kibebelu"
+                    detalhes="Landing page para resturante: Kibebelu."
+                    tecnologias={["Next.js", "React", "TypeScript"]}
+                    imagem={kibebelu}
+                    link="https://github.com/Irenita-Lopes/restaurante"
                 />
 
                 <CardProjeto
