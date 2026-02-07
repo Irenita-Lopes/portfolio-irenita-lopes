@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
             <nav className="w-[100%] h-[100%] text-[20px] md:h-auto flex flex-col md:flex-row align-center items-center justify-center md:justify-end gap-10">
 
                 <Link
-                    className={`text-[#D9831A] hover:text-[#297DA6] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    className={`text-[#A3A651] hover:text-[#297DA6] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
                     href={"/"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
@@ -35,21 +35,21 @@ const Navbar: React.FC = () => {
                 </Link>
 
                 <Link
-                    className={`text-[#D9831A] hover:text-[#297DA6] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    className={`text-[#A3A651] hover:text-[#297DA6] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
                     href={"/#about"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Sobre
                 </Link>
                 <Link
-                    className={`text-[#D9831A] hover:text-[#297DA6] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    className={`text-[#A3A651] hover:text-[#297DA6] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
                     href={"/screens/CertificatesPage"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     Certificados
                 </Link>
                 <Link
-                    className={`text-[#D9831A] hover:text-[#297DA6] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    className={`text-[#A3A651] hover:text-[#297DA6] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
                     href={"/#projects"}
                     onClick={() => setIsOpen(!isOpen)}
                 >
@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
                 </Link>
 
                 <button
-                    className={`text-[#D9831A] hover:text-[#297DA6] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    className={`text-[#A3A651] hover:text-[#297DA6] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
                     onClick={() => {
                         const link = document.createElement('a');
                         link.href = '/Irenita_Ferreira_Lopes.pdf';
@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
 
 
                 <Link
-                    className={`text-[#D9831A] hover:text-[#297DA6] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
+                    className={`text-[#A3A651] hover:text-[#297DA6] font-bold font-default ${!isOpen ? "hidden md:block" : ""}`}
                     href={"/#contacts"}
                     onClick={() => setIsOpen(!isOpen)}
                 >

@@ -41,7 +41,7 @@ const CardProjeto: React.FC<ICardProjetoProps> = ({
 					{tecnologias.map((tec) => (
 						<span
 							key={tec}
-							className="px-3 py-1 rounded-lg bg-[#297DA6] text-white"
+							className="px-3 py-1 rounded-lg bg-[#A3A651] text-white"
 						>
 							{tec}
 						</span>
@@ -50,7 +50,7 @@ const CardProjeto: React.FC<ICardProjetoProps> = ({
 
 				<Link
 					href={link}
-					className="w-60 md:mt-7 flex items-center justify-center gap-2 bg-[#D9831A] py-1 rounded-xl text-center text-white hover:bg-[#297DA6] font-bold font-default"
+					className="w-60 md:mt-7 flex items-center justify-center gap-2 bg-[#297DA6] py-1 rounded-xl text-center text-white hover:bg-[#A3A651] font-bold font-default"
 				>
 					<span>Acesse o projeto</span>
 					<FaLongArrowAltRight />

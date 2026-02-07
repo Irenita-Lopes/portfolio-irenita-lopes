@@ -8,7 +8,7 @@ import kibebelu from "@/assets/kibebelu.png";
 const ProjectsPage = () => {
     return (
         <section
-            className="min-h-screen bg-[#297DA6]"
+            className="min-h-screen bg-[#A3A651]"
             id="projects"
         >  <h1 className="text-5xl md:text-6xl text-center md:px-30 my-10 font-bold text-white leading-relaxed drop-shadow-sm md:text-left">
                 Projetos
@@ -35,7 +35,7 @@ const ProjectsPage = () => {
                     detalhes="Landing page para resturante: Kibebelu."
                     tecnologias={["Next.js", "React", "TypeScript"]}
                     imagem={kibebelu}
-                    link="https://github.com/Irenita-Lopes/restaurante"
+                    link="https://kibebelu.vercel.app"
                 />
 
                 <CardProjeto

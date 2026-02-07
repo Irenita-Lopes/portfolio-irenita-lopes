@@ -39,7 +39,7 @@ const ServicesCard: React.FC<IServicesCard> = ({
                 <button
                     title="Saiba mais"
                     onClick={onClick}
-                    className='bg-[#a64522] hover:bg-[#F24C27] text-white font-bold py-2 px-4 rounded-xl mt-4'
+                    className='bg-[#A3A651] hover:bg-[#297DA6] text-white font-bold py-2 px-4 rounded-xl mt-4'
                 >
                     <RiSearchLine size={20} />
                 </button>

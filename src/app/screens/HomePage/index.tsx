@@ -6,7 +6,7 @@ import Link from "next/link";
 const HomePage = () => {
     return (
         <section
-            className="min-h-screen px-4 py-10 md:py-20 md:px-16 flex flex-col md:flex-row items-center justify-center gap-10 bg-[#297DA6]"
+            className="min-h-screen px-4 py-10 md:py-20 md:px-16 flex flex-col md:flex-row items-center justify-center gap-10 bg-[#A3A651]"
             id="home"
         >
             <figure className="md:w-[30%] h-auto flex justify-center items-center">
@@ -33,14 +33,14 @@ const HomePage = () => {
                         href="https://www.linkedin.com/in/irenita-ferreira-lopes/"
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-white hover:text-[#f5c58b] transition-colors shadow-2xs">
+                        className="text-white hover:text-[#297DA6] transition-colors shadow-2xs">
                         <FaLinkedin size={50} />
                     </Link>
                     <Link
                         href="https://github.com/Irenita-Lopes"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="ml-4 text-white hover:text-[#f5c58b] transition-colors shadow-2xs">
+                        className="ml-4 text-white hover:text-[#297DA6] transition-colors shadow-2xs">
                         <FaGithub size={50} />
                     </Link>
                 </div>

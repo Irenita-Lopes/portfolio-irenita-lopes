@@ -182,7 +182,7 @@ const Certificates = () => {
     };
 
     return (
-        <section className="min-h-screen px-4 py-10 md:py-20 md:px-16 bg-[#297DA6]" id="certificates">
+        <section className="min-h-screen px-4 py-10 md:py-20 md:px-16 bg-[#A3A651]" id="certificates">
             <h1 className="text-4xl md:text-5xl text-center mb-10 text-white font-semibold">
                 Meus Certificados
             </h1>
