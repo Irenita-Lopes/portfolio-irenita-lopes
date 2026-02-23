@@ -37,10 +37,14 @@ const About = () => {
                     Sobre mim
                 </h1>
                 <p className="mt-4 text-lg md:text-xl text-justify text-zinc-800 leading-relaxed drop-shadow-sm md:w-3/4">
-                    Atuo como desenvolvedora full stack e crio softwares com responsividade, design acolhedor, escalabilidade, responsabilidade e propósito.
-                </p>
-                <p className="mt-4 text-lg md:text-xl text-justify text-zinc-800 leading-relaxed drop-shadow-sm md:w-3/4">
-                    Unindo minha formação em letras e meu desenvolvimento acadêmico atual no campo da STEM, tenho mergulhado nos estudos de Processamento de Linguagem Natural.
+               Trabalhei como professora de língua portuguesa e suas tecnologias, em projetos de mitigação dos impactos das desigualdades sociais entre 2018 e 2024. 
+               Contribuí com a revisão de textos no projeto “Manguezal” viabilizado pelo PROAC em prestação de serviços para o Núcleo Disparador em 2021, 
+               assim como colaborei enquanto revisora e assistente técnica na produção do livro “A narrativa por trás do sabor: uma culinária com história” de Amanda Cena, 
+               viabilizado pelo PNAB no ano de  2025, também revisei o E-book "AlimentAfros" de Viviani Cruz no mesmo período. 
+               Atuei na organização e realização de saraus, tertúlias literárias, slams de poesias, oficinas de escritas poéticas em técnicas diversas, 
+               ao compor coletivos culturais como Sarau na Praça, Slam Raiz e Mangue, “Shiu! Mulheres Esquecidas”, promovendo a literatura independente, 
+               a literatura produzida por mulheres, a literatura periférica e marginal, desde 2018. Em 2024 comecei a programar 
+               e  aprendi que código também é a escrita que impede o esquecimento. 
                 </p>
             </div>
             <div className="w-full md:w-2/3 flex flex-col justify-center items-center gap-6">

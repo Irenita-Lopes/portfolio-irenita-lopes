@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Irenita Lopes",
-  description: "Portfolio e serviços de Irenita Lopes, desenvolvedora full stack",
+  title: "Irenita Lopes | Arquitetura de Memória & Impacto Social",
+  description: "Analista desenvolvedora de sitemas e Educadora Social. Criando pontes entre tecnologia, escrevivência e preservação de patrimônio.",
 };
 
 export default function RootLayout({

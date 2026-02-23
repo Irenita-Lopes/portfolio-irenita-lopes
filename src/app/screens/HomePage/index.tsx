@@ -25,8 +25,9 @@ const HomePage = () => {
                     Irenita Lopes
                 </h1>
                 <p className="mt-4 text-lg md:text-xl text-justify text-white leading-relaxed drop-shadow-sm md:w-3/4">
-                    Desenvolvedora Full Stack com experiência em criação de aplicações web.
-                    Comprometida em entregar soluções de qualidade, respeitando a experiência do usuário e com propósito.
+                    Transformamos memórias e patrimônios culturais em soluções digitais de impacto,
+                    construímos as ferramentas para que nossas histórias não sejam esquecidas. 
+                    Multiplicamos iniciativas de leitura e escrita, através de ferramentas digitais e analógicas.
                 </p>
                 <div className="md:w-3/4 flex justify-center  mt-6">
                     <Link

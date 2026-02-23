@@ -1,10 +1,11 @@
-import alimentafros from "@/assets/Alimentafros.png";
-import CardProjeto from "@/components/CardProjeto";
-import pancs from "@/assets/pancs.png";
-import naojogue from "@/assets/naojoguefora.png";
+import oficinaSlam from "@/assets/oficinaSlamEscolaSaoJoaquim.png";
+import oficinaPoesia from "@/assets/oficinaPoesia.png";
+import VivianiCruz from "@/assets/VivianiCruz.png";
+import educacaoAmbiental from "@/assets/jardimEscolaSamuel.png";
+import taioba from "@/assets/taioba.png";
 import passaros from "@/assets/passaros.png";
-import kibebelu from "@/assets/kibebelu.png";
-
+import pancs from "@/assets/pancs.png";
+import CardProjeto from "@/components/CardProjeto";
 const ProjectsPage = () => {
     return (
         <section
@@ -15,32 +16,49 @@ const ProjectsPage = () => {
             </h1>
             <div className="w-full h-full flex flex-col gap-4 px-4 md:px-30 mb-4">
                
+                 <CardProjeto
+                    titulo="Oficinas de literatura"
+                    detalhes="Atividades personalizadas de promoção da leitura para públicos diversos com tecnologias de Sarau e Slam de poesias."
+                    tecnologias={["Educação", "Letramento", "Cultura", "Arte", "Slam", "Sarau"]}
+                    imagem={oficinaSlam}
+                    link="https://www.linkedin.com/posts/irenita-ferreira-lopes_a-amanda-cena-fala-que-meu-perfil-nessa-rede-activity-7425301199228407808-KLVl/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB1SdR0BLMxObrIu_l4T1s7Z4ixIS0M-fKs"
+                />
+              
                 <CardProjeto
-                    titulo="AlimentAfro"
-                    detalhes="Landing page personalizada para projeto de nutrição."
+                    titulo="Oficinas de escrita criativa"
+                    detalhes="Atividades personalizadas de promoção da escrita criativa e eautoral para públicos diversos, com tecnologias da literatura periférica."
+                    tecnologias={["Educação", "Escrita", "Cultura", "Arte", "Escrevivência", "Poesia", "Zine"]}
+                    imagem={oficinaPoesia}
+                    link="https://www.linkedin.com/posts/irenita-ferreira-lopes_a-amanda-cena-fala-que-meu-perfil-nessa-rede-activity-7425301199228407808-KLVl/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB1SdR0BLMxObrIu_l4T1s7Z4ixIS0M-fKs"
+                />
+
+                <CardProjeto
+                    titulo="AlimentAfros"
+                    detalhes="Modelo de portfólio com landing page personalizada de salvaguarda da memória alimentar e nutricional de base ancestral, para Viviani Cruz."
                     tecnologias={["Next.js", "React", "TypeScript"]}
-                    imagem={alimentafros}
+                    imagem={VivianiCruz}
                     link="https://alimentafros.vercel.app"
                 />
-                
+
                 <CardProjeto
                     titulo="Não Jogue Fora"
-                    detalhes="Landing page para o projeto de campanha entitulada Não Jogue Fora."
+                    detalhes="Modelo de campanha com landing page para divulgação de logística reversa."
                     tecnologias={["Next.js", "React", "TypeScript"]}
-                    imagem={naojogue}
+                    imagem={educacaoAmbiental}
                     link="https://nao-jogue-fora.vercel.app"
                 />
+
                   <CardProjeto
                     titulo="Kibebelu"
-                    detalhes="Landing page para resturante: Kibebelu."
+                    detalhes="Modelo comercial de landing page de restaurante gastronomia territorial (produto fictício)."
                     tecnologias={["Next.js", "React", "TypeScript"]}
-                    imagem={kibebelu}
+                    imagem={taioba}
                     link="https://kibebelu.vercel.app"
                 />
 
                 <CardProjeto
                     titulo="Jogo dos pássaros"
-                    detalhes="Inspirado no jogo da velha, aqui apresentamos pássaros da fauna paulistana, partindo do Guia de Aves da Cidade de São Paulo."
+                    detalhes="Projeto de gamificação para a preservação do patrimônio natural da fauna paulistana."
                     tecnologias={["React", "HTML", "JavaScript", "CSS"]}
                     imagem={passaros}
                     link="https://jogo-passarinhos.vercel.app"
