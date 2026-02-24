@@ -13,7 +13,7 @@ const Contact = () => {
            <Title text= "Contate-me" color="[#297DA6]"/>
             <div className="w-full flex flex-col md:flex-row items-center justify-center">
                 <div className="md:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-8 text-zinc-800 text-xl">
-                    <div className="w-full md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md border border-[#A3A651]  hover:shadow-lg transition">
+                    <div className="w-full md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md border border-[#292E33]  hover:shadow-lg transition">
                         <MdOutlineMarkEmailUnread className="text-3xl" />
                         <a
                             href="mailto:vcruz.alimentafros@gmail.com"
@@ -22,7 +22,7 @@ const Contact = () => {
                         </a>
                     </div>
 
-                    <div className="w-full md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md border border-[#A3A651]  hover:shadow-lg transition">
+                    <div className="w-full md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md border border-[#292E33]  hover:shadow-lg transition">
                         <ImWhatsapp className="text-3xl"/>
                         <a
                             href="https://wa.me/+5511933596981"
@@ -33,7 +33,7 @@ const Contact = () => {
                         </a>
                     </div>
 
-                    <div className="w-full md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md border border-[#A3A651]  hover:shadow-lg transition">
+                    <div className="w-full md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md border border-[#292E33]  hover:shadow-lg transition">
                         < FaLinkedinIn className="text-3xl"/>
                         <a
                             href="https://www.linkedin.com/in/irenita-ferreira-lopes/"
@@ -44,7 +44,7 @@ const Contact = () => {
                         </a>
                     </div>
 
-                    <div className="w-full md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md border border-[#A3A651]  hover:shadow-lg transition">
+                    <div className="w-full md:col-span-1 flex items-center gap-4 p-6 rounded-2xl shadow-md border border-[#292E33]  hover:shadow-lg transition">
                         < FaGithub className="text-3xl"/>
                         <a
                             href="https://github.com/Irenita-Lopes"

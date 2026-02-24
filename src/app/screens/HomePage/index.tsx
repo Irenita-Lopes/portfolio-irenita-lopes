@@ -6,7 +6,7 @@ import Link from "next/link";
 const HomePage = () => {
     return (
         <section
-            className="min-h-screen px-4 py-10 md:py-20 md:px-16 flex flex-col md:flex-row items-center justify-center gap-10 bg-[#A3A651]"
+            className="min-h-screen px-4 py-10 md:py-20 md:px-16 flex flex-col md:flex-row items-center justify-center gap-10 bg-[#292E33]"
             id="home"
         >
             <figure className="md:w-[30%] h-auto flex justify-center items-center">
