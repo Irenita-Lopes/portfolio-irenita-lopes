@@ -31,7 +31,7 @@ const CardPost: React.FC<ICardPostProps> = ({ titulo, resumo, data, categoria, s
                     href={`/blog/${slug}`}
                     className="mt-auto text-[#297DA6] font-bold text-sm hover:text-[#A3A651] transition-colors flex items-center gap-1"
                 >
-                    Ler anotação <span>→</span>
+                    Indisponível<span>→</span>
                 </Link>
             </div>
         </div>
