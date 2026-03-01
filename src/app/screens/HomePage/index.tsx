@@ -25,9 +25,10 @@ const HomePage = () => {
                     Irenita Lopes
                 </h1>
                 <p className="mt-4 text-lg md:text-xl text-justify text-white leading-relaxed drop-shadow-sm md:w-3/4">
-                    Transformamos memórias e patrimônios culturais em soluções digitais de impacto,
-                    construímos as ferramentas para que nossas histórias não sejam esquecidas. 
-                    Multiplicamos iniciativas de leitura e escrita, através de ferramentas digitais e analógicas.
+                 Irenita Lopes é pesquisadora e mediadora cultural brasileira que transforma memórias e patrimônios em experiências digitais de impacto. 
+                 Formada em Letras e com trajetória voltada para a educação e a cultura, dedica-se a construir ferramentas que preservam histórias e ampliam o acesso ao conhecimento. 
+                 Sua atuação multiplica iniciativas de leitura e escrita, combinando recursos digitais e analógicos para criar pontes entre tradição e inovação. 
+                 Em seus projetos, cada narrativa resgatada se torna um convite à reflexão coletiva e à valorização da memória cultural.
                 </p>
                 <div className="md:w-3/4 flex justify-center  mt-6">
                     <Link
